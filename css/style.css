@@ -1,0 +1,65 @@
+body {
+
+}
+.top {
+	background: red;
+	height: 230px;
+}
+.title {
+	display: inline-block;
+	font-size: 80px;
+	color: white;
+	font-family: sans-serif;
+	margin-top: 1px;
+	margin-left: 30px;
+	letter-spacing: 10px;
+}
+.right {
+	display: inline-block;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: px;
+}
+#textbox {
+	display: inline-block;	
+	position: relative;
+	font-size: 40px;
+	border-bottom: 2px solid white;
+}
+#button {
+	border: none;
+	font-size: 39px;
+	background: white;
+	margin-left: -5px;
+	color: red;
+	font-weight: bold;
+}
+
+#wholelist {
+	list-style: none;
+	font-size: 30px;
+	margin-left: -43px;
+}
+#one {
+	background: lightgrey;
+}
+#two {
+	background: white;
+}
+#three {
+	background: lightgrey;
+}
+#four {
+	background: white;
+}
+#five {
+	background: lightgrey;
+}
+.deletebutton {
+	position: absolute;
+	right: 20px;
+	margin-top: 7px;
+	border: 2px solid black;
+	border-radius: 15px;
+
+}
