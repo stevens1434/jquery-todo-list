@@ -1,9 +1,12 @@
 body {
-
+	background-image: url("http://www.no-zaku.com/background/wp-content/uploads/sites/9/2016/11/Pretty-Bulletin-Board-Background.jpg");
+	background-repeat: no-repeat;
 }
 .top {
-	background: red;
+	background: saddlebrown;
 	height: 230px;
+	text-align: center;
+	border: 3px solid white;
 }
 .title {
 	display: inline-block;
@@ -15,9 +18,6 @@ body {
 	letter-spacing: 10px;
 }
 .right {
-	display: inline-block;
-	position: absolute;
-	margin-left: 30px;
 	margin-top: px;
 }
 #textbox {
@@ -25,13 +25,14 @@ body {
 	position: relative;
 	font-size: 40px;
 	border-bottom: 2px solid white;
+	color: red;
 }
 #button {
 	border: none;
 	font-size: 39px;
 	background: white;
 	margin-left: -5px;
-	color: red;
+	color: saddlebrown;
 	font-weight: bold;
 }
 
@@ -39,21 +40,10 @@ body {
 	list-style: none;
 	font-size: 30px;
 	margin-left: -43px;
-}
-#one {
-	background: lightgrey;
-}
-#two {
-	background: white;
-}
-#three {
-	background: lightgrey;
-}
-#four {
-	background: white;
-}
-#five {
-	background: lightgrey;
+	color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 35px;
 }
 .deletebutton {
 	position: absolute;
